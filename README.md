@@ -35,6 +35,3 @@ Yes. For many years Wine builders have had to build two seperate builds of Wine.
 
 # Community Builders
 While I applaud the effort of TkG and GE to support robust build environments for Wine. Their support isn't far from ArchLinux (TkG) and Fedora (GE). We're pleased to stand on the shoulders of these giants and provide support for Debian based distros. Our build includes patches provided by both TkG and GE. Thank you both for your support on Discord and Github!
-
-# About Author - Vince McMullin
-I have worked as a low level software engineer for most of my life.
