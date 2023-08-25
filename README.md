@@ -1,5 +1,5 @@
 # Debian Wine Builds By PixelOS
-We compile & package RELEASE only builds of Wine Mainline for Debian based systems. These builds are used in part to support PixelOS. 
+We compile & package RELEASE only builds of Wine Mainline for Debian based systems. These builds are used in part to support PixelOS.
 
 But you do not need to install PixelOS to use these builds on your local system!
 
@@ -11,7 +11,7 @@ We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2
 - 8.14 (Release notes: https://www.winehq.org/announce/8.14)
 
 # Requirements:
-- Installed on Debian based systems running >=glibc 2.31.
+- Installed on Debian based systems or derivative (e.g. Ubuntu) running >=glibc 2.31.
 - Remove previous distro installs of Wine.
 - Runners, Steam, Proton-builds, custom builds are fine.
 
@@ -20,6 +20,12 @@ We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2
 
 # Will we be providing a deb repo?
 Yes. We plan to provide a repo for PixelOS very soon. You will need to manually remove builds when we do to avoid conflicts!
+
+# Will these be a proton specific build?
+At the moment we have no plans to provide a proton specific build since there are already maintainers provided these builds such as GE and Lutris.
+
+# Who can use this build?
+Anyone that needs Windows application or video game support on a Debian based Linux system.
 
 # glibc Background
 For those of you not familar with glibc.
@@ -35,3 +41,6 @@ Yes. For many years Wine builders have had to build two seperate builds of Wine.
 
 # Community Builders
 While I applaud the effort of TkG and GE to support robust build environments for Wine. Their support isn't far from ArchLinux (TkG) and Fedora (GE). We're pleased to stand on the shoulders of these giants and provide support for Debian based distros. Our build includes patches provided by both TkG and GE. Thank you both for your support on Discord and Github!
+
+# Disclaimer
+PixelOS provides support for Enterprise based GPU and vGPU suppport for virtual Desktop based applications. We do not WARRANTY the use of builds outside of intended systems. Use at your own RISK.
