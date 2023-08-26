@@ -1,7 +1,5 @@
 # Debian Wine Builds By PixelOS
-We compile & package RELEASE only builds of Wine Mainline for Debian based systems. These builds are used in part to support PixelOS.
-
-But you do not need to install PixelOS to use these builds on your local system!
+We compile & package RELEASE only builds of Wine (maine with staging-patches) for Debian based systems. These builds are used in part to support PixelOS (https://www.pixelos.com).
 
 Our Wine builds are built on a custom build environment using glibc 2.31 (Ubuntu 20.04 LTS era). This ensures maximum compatibility with most recent Linux distributions.
 
@@ -11,9 +9,15 @@ We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2
 - 8.14 (Release notes: https://www.winehq.org/announce/8.14)
 
 # Requirements:
-- Installed on Debian based systems or derivative (e.g. Ubuntu) running >=glibc 2.31.
+- Build on Debian based systems or derivative (e.g. Ubuntu 20.04 LTS) running =glibc 2.31.
+- Install on any Debian based systems or derivatives (e.g. Ubuntu) running >=glibc 2.31.
 - Remove previous distro installs of Wine.
 - Runners, Steam, Proton-builds, custom builds are fine.
+
+# How to build?
+```./build_package.sh version package_version```
+
+example: ```./build_package.sh 8.14 8.14.r5.gcdcdde3d```
 
 # How to install?
 ```dpkg -i wine-pixelos.8.14.deb```
@@ -21,8 +25,14 @@ We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2
 # Will we be providing a deb repo?
 Yes. We plan to provide a repo for PixelOS very soon. You will need to manually remove builds when we do to avoid conflicts!
 
-# Will these be a proton specific build?
-At the moment we have no plans to provide a proton specific build since there are already maintainers provided these builds such as GE and Lutris.
+# Will these be a Steam Proton specific build?
+At the moment we have no plans to provide a proton specific build since there are already maintainers provided these builds for Steam games such as GE and TkG.
+
+# What is different between this and Lutris or Bottles?
+Lutris and Bottles were developed exclusively for gaming on Wine. Lutris is arguably the defacto standard. Lutris assumes you have lots of games and different runners for each game. Our Debian build is intended for systems that desire a system-wide install of Wine for a specific application. Usually Enterprise grade installs including Enterprise Servers.
+
+# Is this just for video games?
+Absolutely not. In-fact this is a full fledged system wide install of Wine. We support 3D and 2D desktop applications running on Linux. We often use this build inside of a Docker container or Kubernetes clusters.
 
 # Who can use this build?
 Anyone that needs Windows application or video game support on a Debian based Linux system.
