@@ -18,6 +18,7 @@ We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2
 
 # How to build?
 ```./build_package.sh version package_version```
+
 example: ```./build_package.sh 8.14 8.14.r5.gcdcdde3d```
 
 # How to install?
