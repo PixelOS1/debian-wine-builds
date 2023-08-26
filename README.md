@@ -1,7 +1,7 @@
 # Debian Wine Builds By PixelOS
-We compile & package RELEASE only Debian based packages of Wine (maine with staging-patches) for Debian based systems. These builds are used in part to support PixelOS (https://www.pixelos.com).
+We compile & package RELEASE only deb-based packages of Wine (maine with staging-patches) for Debian and derivatives. These builds are used in part to support our PixelOS (https://www.pixelos.com).
 
-Our Wine builds are built on a custom build environment using glibc 2.31 (Ubuntu 20.04 LTS era). This ensures maximum compatibility with most recent Linux distributions.
+Our Wine builds are built on a custom build environment using glibc 2.31 (Ubuntu 20.04 LTS era). This ensures maximum compatibility with most recent deb-based Linux distributions.
 
 We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2.31.
 
