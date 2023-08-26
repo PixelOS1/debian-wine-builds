@@ -1,9 +1,14 @@
 # Debian Wine Builds By PixelOS
-We compile & package RELEASE only builds of Wine (maine with staging-patches) for Debian based systems. These builds are used in part to support PixelOS (https://www.pixelos.com).
+We compile & package RELEASE only Debian based packages of Wine (maine with staging-patches) for Debian based systems. These builds are used in part to support PixelOS (https://www.pixelos.com).
 
 Our Wine builds are built on a custom build environment using glibc 2.31 (Ubuntu 20.04 LTS era). This ensures maximum compatibility with most recent Linux distributions.
 
 We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2.31.
+
+# Why?
+Existing solutions are subpar. Distro packages are old and outdated. Community efforts focus on Steam and Proton and provide superior support for non-deb systems.
+
+Also, 47% of operating systems installed in the world are Linux. Debian + Ubuntu account for more than 49.9% of the Linux marketshare. Debian + derivatives likely account for more than 60% of the marketshare. [Source](https://truelist.co/blog/linux-statistics/)
 
 # Releases
 - 8.14 (Release notes: https://www.winehq.org/announce/8.14)
