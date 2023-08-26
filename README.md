@@ -25,8 +25,8 @@ example: ```./build_package.sh 8.14 8.14.r5.gcdcdde3d```
 # How to install?
 ```dpkg -i wine-pixelos.8.14.deb```
 
-# Will we be providing a deb repo?
-Yes. We plan to provide a repo for PixelOS very soon. You will need to manually remove builds when we do to avoid conflicts!
+# Will you be providing a deb repo or ubuntu ppa?
+Yes. We plan to provide a repo/ppa for PixelOS very soon. You will need to manually remove builds when we do to avoid conflicts!
 
 # Why should I use this over my distro's Wine package?
 Distro builds of Wine are often very outdated and missing functionality that users often need. Wine is a fast moving target.
