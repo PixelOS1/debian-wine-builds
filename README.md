@@ -63,3 +63,11 @@ While I applaud the effort of TkG and GE to support robust build environments fo
 
 # Disclaimer
 PixelOS provides support for Enterprise based GPU and vGPU suppport for virtual Desktop based applications. We do not WARRANTY the use of builds outside of intended systems. Use at your own RISK.
+
+# Kudos
+https://www.winehq.org/
+https://github.com/GloriousEggroll
+https://github.com/Frogging-Family
+https://github.com/HansKristian-Work
+https://github.com/doitsujin
+
