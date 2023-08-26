@@ -14,12 +14,6 @@ Our cloud and enterprise servers often run Debian or Ubuntu Server installs.
 
 NVIDIA vGPU support, A.I. technologies, CUDA, Unreal Engine provide strong Ubuntu/Debian support.
 
-# Releases
-- 8.14 (Release notes: https://www.winehq.org/announce/8.14)
-
-# Patch Notes
-- [8.14 Patch Notes](8.14/pixelos.txt)
-
 # Requirements:
 - Build on Debian based systems or derivative (e.g. Ubuntu 20.04 LTS) running =glibc 2.31.
 - Install on any Debian based systems or derivatives (e.g. Ubuntu) running >=glibc 2.31.
