@@ -46,8 +46,14 @@ Installed-Size: $(du -sb winebuild-${wineversion} | awk '{printf "%1.0f\n",$1/10
 Description: PixelOS build of Wine
 EOL
 tar czf control.tar.gz -C control ./ >> /dev/null
-#rm -r control
 
 echo "2.0" > debian-binary
 
 ar -r wine-tkg-pixelos.$wineversion.deb debian-binary control.tar.gz data.tar.gz &> /dev/null
+
+# Cleanup
+echo "Cleaning up. Please be patient!\n"
+rm -Rf control
+rm -Rf control.tar.gz
+rm -Rf debian-binary
+rm -Rf data.tar.gz
