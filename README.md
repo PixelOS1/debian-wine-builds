@@ -28,6 +28,9 @@ example: ```./build_package.sh 8.14 8.14.r5.gcdcdde3d```
 # Will we be providing a deb repo?
 Yes. We plan to provide a repo for PixelOS very soon. You will need to manually remove builds when we do to avoid conflicts!
 
+# Why should I use this over my distro's Wine package?
+Distro builds of Wine are often very outdated and missing functionality that users often need. Wine is a fast moving target.
+
 # Will there be a Steam Proton specific build?
 At the moment we have no plans to provide a proton specific build since there are already maintainers provided these builds for Steam games such as GE and TkG.
 
