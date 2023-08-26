@@ -1,7 +1,5 @@
 # Debian Wine Builds By PixelOS
-We compile & package RELEASE only builds of Wine Mainline for Debian based systems. These builds are used in part to support PixelOS.
-
-But you do not need to install PixelOS to use these builds on your local system!
+We compile & package RELEASE only builds of Wine Mainline for Debian based systems. These builds are used in part to support PixelOS. However, you can use this build on any Debian based systems.
 
 Our Wine builds are built on a custom build environment using glibc 2.31 (Ubuntu 20.04 LTS era). This ensures maximum compatibility with most recent Linux distributions.
 
