@@ -35,7 +35,7 @@ Yes. We plan to provide a repo/ppa for PixelOS very soon. You will need to manua
 Distro builds of Wine are often very outdated and missing functionality that users often need. Wine is a fast moving target.
 
 # Will there be a Steam Proton specific build?
-At the moment we have no plans to provide a proton specific build since there are already maintainers provided these builds for Steam games such as GE and TkG.
+At the moment we have no plans to provide a proton specific build since there are already maintainers providing these builds for Steam games such as GE and TkG.
 
 # What is different between this and Lutris or Bottles?
 Lutris and Bottles were developed exclusively for gaming on Wine. Lutris is arguably the defacto standard. Lutris assumes you have lots of games and different runners for each game. Our Debian build is intended for systems that desire a system-wide install of Wine for a specific application. Usually Enterprise grade installs including Enterprise Servers. Though dedicated server operators, retro-game, non-steam, and epic games are welcomed to use our builds!
