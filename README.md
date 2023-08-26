@@ -10,6 +10,10 @@ Existing solutions are subpar. Distro packages are old and outdated. Community e
 
 Also, 47% of operating systems installed in the world are Linux. Debian + Ubuntu account for more than 49.9% of the Linux marketshare. Debian + derivatives likely account for more than 60% of the marketshare. [Source](https://truelist.co/blog/linux-statistics/)
 
+Our cloud and enterprise servers often run Debian or Ubuntu Server installs.
+
+NVIDIA vGPU support, A.I. technologies, CUDA, Unreal Engine provide strong Ubuntu/Debian support.
+
 # Releases
 - 8.14 (Release notes: https://www.winehq.org/announce/8.14)
 
