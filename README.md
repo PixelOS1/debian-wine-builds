@@ -8,6 +8,9 @@ We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2
 # Releases
 - 8.14 (Release notes: https://www.winehq.org/announce/8.14)
 
+# Patch Notes
+- All Patch notes are found within the corresponding pixelos.txt (e.g. 8.14/pixelos.txt)
+
 # Requirements:
 - Build on Debian based systems or derivative (e.g. Ubuntu 20.04 LTS) running =glibc 2.31.
 - Install on any Debian based systems or derivatives (e.g. Ubuntu) running >=glibc 2.31.
