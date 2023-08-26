@@ -9,7 +9,7 @@ We do not plan to upgrade glibc 2.31 and provide our own LTS support for glibc 2
 - 8.14 (Release notes: https://www.winehq.org/announce/8.14)
 
 # Patch Notes
-- 8.14 (Patch notes: [a relative link](8.14/pixelos.txt))
+- [8.14 Patch Notes](8.14/pixelos.txt)
 
 # Requirements:
 - Build on Debian based systems or derivative (e.g. Ubuntu 20.04 LTS) running =glibc 2.31.
