@@ -28,11 +28,11 @@ example: ```./build_package.sh 8.14 8.14.r5.gcdcdde3d```
 # Will we be providing a deb repo?
 Yes. We plan to provide a repo for PixelOS very soon. You will need to manually remove builds when we do to avoid conflicts!
 
-# Will these be a Steam Proton specific build?
+# Will there be a Steam Proton specific build?
 At the moment we have no plans to provide a proton specific build since there are already maintainers provided these builds for Steam games such as GE and TkG.
 
 # What is different between this and Lutris or Bottles?
-Lutris and Bottles were developed exclusively for gaming on Wine. Lutris is arguably the defacto standard. Lutris assumes you have lots of games and different runners for each game. Our Debian build is intended for systems that desire a system-wide install of Wine for a specific application. Usually Enterprise grade installs including Enterprise Servers.
+Lutris and Bottles were developed exclusively for gaming on Wine. Lutris is arguably the defacto standard. Lutris assumes you have lots of games and different runners for each game. Our Debian build is intended for systems that desire a system-wide install of Wine for a specific application. Usually Enterprise grade installs including Enterprise Servers. Though dedicated server operators, retro-game, non-steam, and epic games are welcomed to use our builds!
 
 # Is this just for video games?
 Absolutely not. In-fact this is a full fledged system wide install of Wine. We support 3D and 2D desktop applications running on Linux. We often use this build inside of a Docker container or Kubernetes clusters.
